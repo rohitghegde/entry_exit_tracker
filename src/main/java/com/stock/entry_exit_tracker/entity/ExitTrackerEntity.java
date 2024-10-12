@@ -9,8 +9,8 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "stock_tracker")
-public class StockTrackerEntity {
+@Table(name = "exit_tracker")
+public class ExitTrackerEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
